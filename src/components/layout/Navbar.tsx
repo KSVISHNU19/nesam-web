@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X, Phone, MessageSquare } from "lucide-react";
 
@@ -41,15 +42,27 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
         {/* Brand Logo */}
-        <Link href="/" className="flex flex-col group select-none">
-          <span className={`font-serif text-2xl md:text-3xl font-bold tracking-widest transition-colors duration-300 ${
-            isDarkHero ? "text-white" : "text-charcoal"
-          } group-hover:text-gold-wood`}>
-            NESAM
-          </span>
-          <span className="text-[9px] md:text-[10px] tracking-[0.25em] text-gold-wood uppercase font-semibold font-sans mt-0.5">
-            Glass, Plywoods & Hardware
-          </span>
+        <Link href="/" className="flex items-center space-x-3 group select-none">
+          <div className="relative w-10 h-10 md:w-11 md:h-11 rounded-full overflow-hidden bg-white border border-gold-wood/30 shadow-sm flex items-center justify-center shrink-0 transition-transform duration-300 group-hover:scale-105">
+            <Image
+              src="/nesam-logo.png"
+              alt="NESAM Logo"
+              width={44}
+              height={44}
+              className="object-contain p-1"
+              priority
+            />
+          </div>
+          <div className="flex flex-col">
+            <span className={`font-serif text-xl md:text-2xl font-bold tracking-widest transition-colors duration-300 ${
+              isDarkHero ? "text-white" : "text-charcoal"
+            } group-hover:text-gold-wood`}>
+              NESAM
+            </span>
+            <span className="text-[8px] md:text-[9px] tracking-[0.2em] text-gold-wood uppercase font-semibold font-sans mt-0.5">
+              GLASS, PLYWOODS & HARDWARE
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Navigation Links */}

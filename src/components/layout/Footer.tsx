@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, Mail, MapPin, Clock, MessageSquare } from "lucide-react";
 import { categoriesData } from "@/data/products";
 
@@ -24,13 +25,24 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
         {/* Brand Description */}
         <div className="flex flex-col space-y-6">
-          <Link href="/" className="flex flex-col">
-            <span className="font-serif text-3xl font-bold tracking-widest text-white">
-              NESAM
-            </span>
-            <span className="text-[10px] tracking-[0.25em] text-gold-wood uppercase font-semibold mt-0.5">
-              Glass, Plywoods & Hardware
-            </span>
+          <Link href="/" className="flex items-center space-x-3 group">
+            <div className="w-12 h-12 rounded-full overflow-hidden bg-white flex items-center justify-center p-1 border border-gold-wood/30 shrink-0 transition-transform duration-300 group-hover:scale-105">
+              <Image
+                src="/nesam-logo.png"
+                alt="Nesam Logo"
+                width={48}
+                height={48}
+                className="object-contain"
+              />
+            </div>
+            <div className="flex flex-col">
+              <span className="font-serif text-2xl font-bold tracking-widest text-white group-hover:text-gold-wood transition-colors">
+                NESAM
+              </span>
+              <span className="text-[9px] tracking-[0.2em] text-gold-wood uppercase font-semibold mt-0.5">
+                Glass, Plywoods & Hardware
+              </span>
+            </div>
           </Link>
           <p className="text-white/60 text-sm leading-relaxed font-sans max-w-sm">
             A premium digital showroom displaying luxury architectural glass, designer plywoods, exclusive laminates, and high-end hardware. Crafted for modern interior spaces, residences, and commercial designs.
