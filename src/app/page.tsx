@@ -13,9 +13,7 @@ import {
   Smile, 
   HeartHandshake, 
   ArrowRight,
-  HelpCircle,
-  Eye,
-  FileText
+  HelpCircle
 } from "lucide-react";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
@@ -116,30 +114,18 @@ export default function Home() {
       
       {/* 1. HERO SECTION */}
       <section className="relative min-h-[90vh] md:min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
-        {/* Background Image with Dark & Warm Overlay */}
-        <div className="absolute inset-0 z-0">
-          <motion.div
-            initial={{ scale: 1, opacity: 0 }}
-            animate={{ scale: 1.03, opacity: 1 }}
-            transition={{ duration: 6, ease: "easeOut" }}
-            className="absolute inset-0"
-          >
-            <Image
-              src="/images/open-page.png"
-              alt="Nesam Glass, Plywoods & Hardware Showroom Building"
-              fill
-              priority
-              quality={100}
-              sizes="100vw"
-              className="object-cover object-center"
-            />
-          </motion.div>
-          <div 
-            className="absolute inset-0" 
-            style={{ 
-              background: 'linear-gradient(90deg, rgba(15,15,15,0.72) 0%, rgba(15,15,15,0.52) 35%, rgba(15,15,15,0.22) 65%, rgba(15,15,15,0.08) 100%)' 
-            }}
-          />
+        {/* Dark Luxury Ambient Background */}
+        <div className="absolute inset-0 z-0 bg-charcoal overflow-hidden">
+          {/* Subtle Ambient Glow Effects */}
+          <div className="absolute -top-40 -left-40 w-96 h-96 rounded-full bg-gold-wood/15 blur-[120px] pointer-events-none" />
+          <div className="absolute top-1/2 right-0 w-[500px] h-[500px] rounded-full bg-gold-wood/10 blur-[150px] pointer-events-none" />
+          <div className="absolute -bottom-32 left-1/3 w-80 h-80 rounded-full bg-gold-wood/15 blur-[100px] pointer-events-none" />
+          
+          {/* Subtle Grid Accent */}
+          <div className="absolute inset-0 bg-[radial-gradient(rgba(197,168,128,0.12)_1px,transparent_1px)] [background-size:32px_32px] opacity-40" />
+          
+          {/* Soft Dark Vignette Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-b from-charcoal/80 via-transparent to-charcoal" />
         </div>
 
         <div className="max-w-7xl mx-auto px-6 md:px-12 w-full z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">

@@ -3,13 +3,12 @@
 import React, { useState, useMemo } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Search, ArrowRight, Layers, Sparkles, Filter, X, Grid, Eye } from "lucide-react";
+import { Search, ArrowRight, Filter, X } from "lucide-react";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/common/WhatsAppButton";
 import ScrollToTop from "@/components/common/ScrollToTop";
 import GlassCard from "@/components/ui/GlassCard";
-import SectionHeading from "@/components/ui/SectionHeading";
 import { categoriesData, productsData } from "@/data/products";
 
 export default function ProductsPage() {
@@ -21,8 +20,8 @@ export default function ProductsPage() {
     return productsData.filter((product) => {
       const matchesSearch =
         product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        product.code.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        product.description.toLowerCase().includes(searchQuery.toLowerCase());
+        (product.code?.toLowerCase().includes(searchQuery.toLowerCase()) ?? false) ||
+        (product.description?.toLowerCase().includes(searchQuery.toLowerCase()) ?? false);
       
       const matchesCategory = selectedCategory ? product.category === selectedCategory : true;
       
@@ -126,8 +125,59 @@ export default function ProductsPage() {
 
               {filteredProducts.length > 0 ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-                  {filteredProducts.map((product) => {
+                  {filteredProducts.map((product, idx) => {
                     const catInfo = categoriesData.find((c) => c.slug === product.category);
+                    if (product.isImageOnly) {
+                      const brandName = product.brand || (product.category === "door-locks" ? "QUBA®" : "HABLO®");
+                      const displayBrand = brandName === "bonus-MOBaj®" ? "MOBaj®" : brandName;
+                      return (
+                        <GlassCard
+                          key={product.slug}
+                          hoverEffect={true}
+                          delay={(idx % 6) * 0.05}
+                          className={`flex flex-col h-full overflow-hidden rounded-3xl border transition-all duration-300 ${
+                            product.cardBg
+                              ? "border-charcoal/40 " + product.cardBg
+                              : "border-neutral-200/80 bg-white shadow-sm hover:shadow-xl"
+                          } p-3 relative group`}
+                        >
+                          <Link
+                            href={`/products/${product.category}/${product.slug}`}
+                            className={`block relative w-full h-[400px] md:h-[440px] rounded-2xl overflow-hidden ${
+                              product.cardBg ? product.cardBg : "bg-white"
+                            } flex items-center justify-center p-4`}
+                          >
+                            {/* Centered Overlay Header at Top */}
+                            <div className="absolute top-3 sm:top-4 left-1/2 -translate-x-1/2 max-w-[90%] z-10 flex flex-col items-center gap-1.5 pointer-events-none">
+                              {/* Main Black Pill */}
+                              <div className="bg-black/95 backdrop-blur-md border border-white/15 px-3.5 sm:px-4 py-1.5 sm:py-2 rounded-full shadow-md text-white font-sans text-[10px] sm:text-xs md:text-xs font-bold tracking-wider text-center uppercase flex items-center justify-center gap-1.5 sm:gap-2 truncate max-w-full">
+                                <span className="text-gold-wood font-extrabold shrink-0">{displayBrand}</span>
+                                <span className="text-white/40 shrink-0">•</span>
+                                <span className="text-white font-bold truncate">{product.name}</span>
+                              </div>
+
+                              {/* Sub-badge Centered Below Black Pill */}
+                              {product.name2 && (
+                                <div className="bg-black/85 backdrop-blur-md border border-gold-wood/30 text-gold-wood px-3.5 py-0.5 sm:py-1 rounded-full text-[10px] sm:text-xs font-sans font-semibold tracking-wide shadow-md text-center capitalize">
+                                  {product.name2}
+                                </div>
+                              )}
+                            </div>
+
+                            {/* Catalog Product Image */}
+                            <Image
+                              src={product.images[0]}
+                              alt={`${displayBrand} ${product.name}`}
+                              fill
+                              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 420px"
+                              className="object-contain p-4 group-hover:scale-105 transition-transform duration-500"
+                              priority
+                            />
+                          </Link>
+                        </GlassCard>
+                      );
+                    }
+
                     return (
                       <GlassCard
                         key={product.slug}
@@ -204,7 +254,7 @@ export default function ProductsPage() {
                   Browse by Category
                 </h2>
                 <span className="text-xs font-semibold text-gold-wood uppercase tracking-widest">
-                  11 Exclusive Sectors
+                  {categoriesData.length} Exclusive Sectors
                 </span>
               </div>
 
@@ -213,9 +263,9 @@ export default function ProductsPage() {
                   // Count total products in this category
                   const catProductsCount = productsData.filter((p) => p.category === cat.slug).length;
                   
-                  // Get a preview image from the first product of the category
+                  // Get a preview image from the category image or first product
                   const previewProd = productsData.find((p) => p.category === cat.slug);
-                  const previewImg = previewProd ? previewProd.images[0] : "";
+                  const previewImg = cat.image || (previewProd ? previewProd.images[0] : "");
 
                   return (
                     <GlassCard

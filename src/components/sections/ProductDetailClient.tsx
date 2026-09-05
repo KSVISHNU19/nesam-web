@@ -18,6 +18,47 @@ export default function ProductDetailClient({ product, category }: ProductDetail
   const relatedProducts = getRelatedProducts(product, 4);
   const { prev, next } = getPrevAndNextProduct(product);
 
+  if (product.isImageOnly) {
+    return (
+      <div className="max-w-5xl mx-auto px-6 md:px-12 font-sans pb-24">
+        <div className="flex items-center justify-between mb-8 pt-4">
+          <Link
+            href={`/products/${category.slug}`}
+            className="inline-flex items-center gap-2 text-xs font-bold text-gold-wood hover:text-gold-dark uppercase tracking-widest transition-colors"
+          >
+            <ArrowLeft size={14} />
+            <span>Back to {category.name}</span>
+          </Link>
+
+          {/* Centered Product & Company Badge */}
+          <div className="flex flex-col items-center gap-1.5">
+            <div className="bg-charcoal text-white text-xs md:text-sm font-bold uppercase tracking-widest px-5 py-2 rounded-full border border-gold-wood/30 shadow-sm flex items-center justify-center gap-2">
+              <span className="text-gold-wood font-extrabold">{product.brand || "QUBA®"}</span>
+              <span className="text-white/40">•</span>
+              <span>{product.name}</span>
+            </div>
+            {product.name2 && (
+              <div className="bg-charcoal/90 text-gold-wood text-xs md:text-sm font-semibold tracking-wide px-4 py-1 rounded-full border border-gold-wood/30 shadow-sm text-center capitalize">
+                {product.name2}
+              </div>
+            )}
+          </div>
+        </div>
+
+        <div className={`relative w-full min-h-[600px] md:min-h-[800px] rounded-3xl overflow-hidden border border-gold-wood/10 shadow-xl p-4 ${product.cardBg ? product.cardBg : 'bg-white'}`}>
+          <Image
+            src={product.images[0]}
+            alt="Quba Product Catalog"
+            fill
+            priority
+            sizes="100vw"
+            className="object-contain"
+          />
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="max-w-7xl mx-auto px-6 md:px-12 font-sans">
       
@@ -122,83 +163,91 @@ export default function ProductDetailClient({ product, category }: ProductDetail
           </p>
 
           {/* Available Finishes */}
-          <div className="space-y-2">
-            <span className="text-xs font-bold text-charcoal/50 uppercase tracking-wider block">Available Finishes</span>
-            <div className="flex flex-wrap gap-2">
-              {product.finishes.map((finish, idx) => (
-                <span
-                  key={idx}
-                  className="text-xs bg-white border border-charcoal/5 px-4 py-2 rounded-xl text-charcoal/80 font-semibold shadow-sm hover:border-gold-wood transition-colors duration-200"
-                >
-                  {finish}
-                </span>
-              ))}
+          {product.finishes && product.finishes.length > 0 && (
+            <div className="space-y-2">
+              <span className="text-xs font-bold text-charcoal/50 uppercase tracking-wider block">Available Finishes</span>
+              <div className="flex flex-wrap gap-2">
+                {product.finishes.map((finish, idx) => (
+                  <span
+                    key={idx}
+                    className="text-xs bg-white border border-charcoal/5 px-4 py-2 rounded-xl text-charcoal/80 font-semibold shadow-sm hover:border-gold-wood transition-colors duration-200"
+                  >
+                    {finish}
+                  </span>
+                ))}
+              </div>
             </div>
-          </div>
+          )}
 
           {/* Features & Applications tabs/lists */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pt-4 border-t border-charcoal/5">
             {/* Features */}
-            <div className="space-y-4">
-              <h4 className="font-serif text-lg font-bold text-charcoal flex items-center gap-2">
-                <Sparkles size={18} className="text-gold-wood" />
-                <span>Key Features</span>
-              </h4>
-              <ul className="space-y-3">
-                {product.features.map((feat, idx) => (
-                  <li key={idx} className="flex items-start gap-2.5 text-xs text-charcoal/70 leading-normal">
-                    <CheckCircle size={14} className="text-gold-wood shrink-0 mt-0.5" />
-                    <span>{feat}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            {product.features && product.features.length > 0 && (
+              <div className="space-y-4">
+                <h4 className="font-serif text-lg font-bold text-charcoal flex items-center gap-2">
+                  <Sparkles size={18} className="text-gold-wood" />
+                  <span>Key Features</span>
+                </h4>
+                <ul className="space-y-3">
+                  {product.features.map((feat, idx) => (
+                    <li key={idx} className="flex items-start gap-2.5 text-xs text-charcoal/70 leading-normal">
+                      <CheckCircle size={14} className="text-gold-wood shrink-0 mt-0.5" />
+                      <span>{feat}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
             {/* Applications */}
-            <div className="space-y-4">
-              <h4 className="font-serif text-lg font-bold text-charcoal flex items-center gap-2">
-                <HelpCircle size={18} className="text-gold-wood" />
-                <span>Applications</span>
-              </h4>
-              <ul className="space-y-3">
-                {product.applications.map((app, idx) => (
-                  <li key={idx} className="flex items-start gap-2.5 text-xs text-charcoal/70 leading-normal">
-                    <span className="w-1.5 h-1.5 rounded-full bg-gold-wood shrink-0 mt-2" />
-                    <span>{app}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            {product.applications && product.applications.length > 0 && (
+              <div className="space-y-4">
+                <h4 className="font-serif text-lg font-bold text-charcoal flex items-center gap-2">
+                  <HelpCircle size={18} className="text-gold-wood" />
+                  <span>Applications</span>
+                </h4>
+                <ul className="space-y-3">
+                  {product.applications.map((app, idx) => (
+                    <li key={idx} className="flex items-start gap-2.5 text-xs text-charcoal/70 leading-normal">
+                      <span className="w-1.5 h-1.5 rounded-full bg-gold-wood shrink-0 mt-2" />
+                      <span>{app}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
 
           {/* Specifications Table */}
-          <div className="space-y-4 pt-6 border-t border-charcoal/5">
-            <h4 className="font-serif text-lg font-bold text-charcoal flex items-center gap-2">
-              <Award size={18} className="text-gold-wood" />
-              <span>Technical Specifications</span>
-            </h4>
-            <div className="rounded-2xl border border-charcoal/5 overflow-hidden shadow-sm bg-white/40">
-              <table className="w-full text-left border-collapse text-xs">
-                <tbody>
-                  {product.specifications.map((spec, idx) => (
-                    <tr
-                      key={idx}
-                      className={`border-b border-charcoal/5 last:border-0 ${
-                        idx % 2 === 0 ? "bg-white/20" : "bg-transparent"
-                      }`}
-                    >
-                      <td className="px-6 py-3.5 font-bold text-charcoal/50 uppercase tracking-wider w-1/3">
-                        {spec.label}
-                      </td>
-                      <td className="px-6 py-3.5 font-semibold text-charcoal/80">
-                        {spec.value}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+          {product.specifications && product.specifications.length > 0 && (
+            <div className="space-y-4 pt-6 border-t border-charcoal/5">
+              <h4 className="font-serif text-lg font-bold text-charcoal flex items-center gap-2">
+                <Award size={18} className="text-gold-wood" />
+                <span>Technical Specifications</span>
+              </h4>
+              <div className="rounded-2xl border border-charcoal/5 overflow-hidden shadow-sm bg-white/40">
+                <table className="w-full text-left border-collapse text-xs">
+                  <tbody>
+                    {product.specifications.map((spec, idx) => (
+                      <tr
+                        key={idx}
+                        className={`border-b border-charcoal/5 last:border-0 ${
+                          idx % 2 === 0 ? "bg-white/20" : "bg-transparent"
+                        }`}
+                      >
+                        <td className="px-6 py-3.5 font-bold text-charcoal/50 uppercase tracking-wider w-1/3">
+                          {spec.label}
+                        </td>
+                        <td className="px-6 py-3.5 font-semibold text-charcoal/80">
+                          {spec.value}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
-          </div>
+          )}
 
         </div>
       </div>
@@ -264,9 +313,11 @@ export default function ProductDetailClient({ product, category }: ProductDetail
                     className="object-cover"
                   />
                   <div className="absolute inset-0 bg-charcoal/10 transition-opacity duration-300 group-hover:bg-charcoal/20" />
-                  <span className="absolute top-4 left-4 bg-charcoal/90 text-gold-wood text-[9px] uppercase font-bold tracking-wider px-2 py-1 rounded">
-                    {p.code}
-                  </span>
+                  {p.code && (
+                    <span className="absolute top-4 left-4 bg-charcoal/90 text-gold-wood text-[9px] uppercase font-bold tracking-wider px-2 py-1 rounded">
+                      {p.code}
+                    </span>
+                  )}
                 </div>
 
                 {/* Content */}
@@ -275,9 +326,11 @@ export default function ProductDetailClient({ product, category }: ProductDetail
                     <h4 className="font-serif text-sm font-bold text-charcoal line-clamp-1">
                       {p.name}
                     </h4>
-                    <p className="text-[11px] text-charcoal/50 truncate">
-                      {p.finishes.join(" • ")}
-                    </p>
+                    {p.finishes && p.finishes.length > 0 && (
+                      <p className="text-[11px] text-charcoal/50 truncate">
+                        {p.finishes.join(" • ")}
+                      </p>
+                    )}
                   </div>
                   <Link
                     href={`/products/${p.category}/${p.slug}`}
