@@ -7,7 +7,10 @@ import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/common/WhatsAppButton";
 import ScrollToTop from "@/components/common/ScrollToTop";
 
-// Define segment parameters to statically pre-render all 308 products
+export const dynamicParams = true;
+export const revalidate = 0;
+
+// Define segment parameters to statically pre-render products
 export async function generateStaticParams() {
   return productsData.map((prod) => ({
     category: prod.category,
@@ -21,7 +24,8 @@ export async function generateMetadata({
 }: {
   params: Promise<{ category: string; slug: string }>;
 }) {
-  const { slug } = await params;
+  const { slug: rawSlug } = await params;
+  const slug = decodeURIComponent(rawSlug || "").trim();
   const product = getProductBySlug(slug);
 
   if (!product) {
@@ -33,11 +37,11 @@ export async function generateMetadata({
   const catObj = categoriesData.find((c) => c.slug === product.category);
 
   return {
-    title: `${product.name} | ${product.code} | Nesam Premium Showroom`,
-    description: `${product.description} Premium grade ${catObj?.name || product.category} model by Nesam. View specifications and key applications.`,
+    title: `${product.name} | ${product.code || ''} | Nesam Premium Showroom`,
+    description: `${product.description || ''} Premium grade ${catObj?.name || product.category} model by Nesam. View specifications and key applications.`,
     openGraph: {
-      title: `${product.name} | Code: ${product.code}`,
-      description: product.description,
+      title: `${product.name} | Code: ${product.code || ''}`,
+      description: product.description || '',
       images: [
         {
           url: product.images[0],
@@ -55,16 +59,21 @@ export default async function ProductDetailPage({
 }: {
   params: Promise<{ category: string; slug: string }>;
 }) {
-  const { category, slug } = await params;
+  const { category: rawCategory, slug: rawSlug } = await params;
+  const category = decodeURIComponent(rawCategory || "").trim();
+  const slug = decodeURIComponent(rawSlug || "").trim();
 
-  // Retrieve product details
+  // Retrieve product details by slug or id
   const product = getProductBySlug(slug);
-  if (!product || product.category !== category) {
+  if (!product) {
     notFound();
   }
 
   // Find category data
-  const catObj = categoriesData.find((c) => c.slug === category);
+  const catObj =
+    categoriesData.find((c) => c.slug === product.category) ||
+    categoriesData.find((c) => c.slug === category);
+
   if (!catObj) {
     notFound();
   }

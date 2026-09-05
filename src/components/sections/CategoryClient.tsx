@@ -182,7 +182,7 @@ export default function CategoryClient({ category, products }: CategoryClientPro
               const displayBrand = brandName === "bonus-MOBaj®" ? "MOBaj®" : brandName;
               return (
                 <GlassCard
-                  key={product.slug}
+                  key={`${product.id}-${idx}`}
                   hoverEffect={true}
                   delay={(idx % 6) * 0.05}
                   className={`flex flex-col h-full overflow-hidden rounded-3xl border transition-all duration-300 ${
@@ -198,12 +198,12 @@ export default function CategoryClient({ category, products }: CategoryClientPro
                     } flex items-center justify-center p-4`}
                   >
                     {/* Centered Overlay Header at Top */}
-                    <div className="absolute top-3 sm:top-4 left-1/2 -translate-x-1/2 max-w-[90%] z-10 flex flex-col items-center gap-1.5 pointer-events-none">
+                    <div className="absolute top-3 sm:top-4 left-1/2 -translate-x-1/2 max-w-[92%] sm:max-w-[90%] z-10 flex flex-col items-center gap-1.5 pointer-events-none">
                       {/* Main Black Pill */}
-                      <div className="bg-black/95 backdrop-blur-md border border-white/15 px-3.5 sm:px-4 py-1.5 sm:py-2 rounded-full shadow-md text-white font-sans text-[10px] sm:text-xs md:text-xs font-bold tracking-wider text-center uppercase flex items-center justify-center gap-1.5 sm:gap-2 truncate max-w-full">
+                      <div className="bg-black/95 backdrop-blur-md border border-white/15 px-3.5 sm:px-4 py-1.5 sm:py-2 rounded-2xl shadow-md text-white font-sans text-[10px] sm:text-xs md:text-xs font-bold tracking-wider text-center uppercase flex flex-wrap items-center justify-center gap-1 sm:gap-1.5 max-w-full leading-tight">
                         <span className="text-gold-wood font-extrabold shrink-0">{displayBrand}</span>
                         <span className="text-white/40 shrink-0">•</span>
-                        <span className="text-white font-bold truncate">{product.name}</span>
+                        <span className="text-white font-bold">{product.name}</span>
                       </div>
 
                       {/* Sub-badge Centered Below Black Pill */}

@@ -111,7 +111,7 @@ export const generateProducts = (): Product[] => {
       id: "cat-doors-korakkar-alex-black-gold-1",
       slug: "designer-doors-catalog-korakkar-alex-black-gold-1",
       name: "ALEX - Black Gold ",
-      name2:"noyyal",
+      name2: "noyyal",
       brand: "KORAKKAR®",
       category: "doors",
       images: ["/images/korakkar/2.jpeg"],
@@ -121,7 +121,7 @@ export const generateProducts = (): Product[] => {
       id: "cat-doors-korakkar-alex-black-gold-2",
       slug: "designer-doors-catalog-korakkar-alex-black-gold-2",
       name: "ALEX - Black Silver",
-      name2:"noyyal",
+      name2: "noyyal",
       brand: "KORAKKAR®",
       category: "doors",
       images: ["/images/korakkar/3.jpeg"],
@@ -131,7 +131,7 @@ export const generateProducts = (): Product[] => {
       id: "cat-doors-korakkar-alex-black-gold-3",
       slug: "designer-doors-catalog-korakkar-alex-black-gold-3",
       name: "ALEX - Cherry",
-      name2:"noyyal",
+      name2: "noyyal",
       brand: "KORAKKAR®",
       category: "doors",
       images: ["/images/korakkar/4.jpeg"],
@@ -141,7 +141,7 @@ export const generateProducts = (): Product[] => {
       id: "cat-doors-korakkar-alex-black-gold-4",
       slug: "designer-doors-catalog-korakkar-alex-black-gold-4",
       name: "Antique-Cherry",
-      name2:"noyyal",
+      name2: "noyyal",
       brand: "KORAKKAR®",
       category: "doors",
       images: ["/images/korakkar/5.jpeg"],
@@ -151,7 +151,7 @@ export const generateProducts = (): Product[] => {
       id: "cat-doors-korakkar-alex-black-gold-5",
       slug: "designer-doors-catalog-korakkar-alex-black-gold-5",
       name: "Antique-Walnut",
-      name2:"noyyal",
+      name2: "noyyal",
       brand: "KORAKKAR®",
       category: "doors",
       images: ["/images/korakkar/6.jpeg"],
@@ -161,17 +161,17 @@ export const generateProducts = (): Product[] => {
       id: "cat-doors-korakkar-alex-black-gold-6",
       slug: "designer-doors-catalog-korakkar-alex-black-gold-6",
       name: "KH601-sandal",
-      name2:"noyyal",
+      name2: "noyyal",
       brand: "KORAKKAR®",
       category: "doors",
       images: ["/images/korakkar/7.jpeg"],
       isImageOnly: true
     },
-     {
+    {
       id: "cat-doors-korakkar-alex-black-gold-7",
       slug: "designer-doors-catalog-korakkar-alex-black-gold-7",
       name: "KH602-cherry",
-      name2:"noyyal",
+      name2: "noyyal",
       brand: "KORAKKAR®",
       category: "doors",
       images: ["/images/korakkar/8.jpeg"],
@@ -181,7 +181,7 @@ export const generateProducts = (): Product[] => {
       id: "cat-doors-korakkar-alex-black-gold-8",
       slug: "designer-doors-catalog-korakkar-alex-black-gold-8",
       name: "KH604-walnut",
-      name2:"noyyal",
+      name2: "noyyal",
       brand: "KORAKKAR®",
       category: "doors",
       images: ["/images/korakkar/9.jpeg"],
@@ -192,7 +192,7 @@ export const generateProducts = (): Product[] => {
       id: "cat-doors-korakkar-alex-black-gold-11",
       slug: "designer-doors-catalog-korakkar-alex-black-gold-11",
       name: "KH605-Black magic",
-      name2:"noyyal",
+      name2: "noyyal",
       brand: "KORAKKAR®",
       category: "doors",
       images: ["/images/korakkar/12.jpeg"],
@@ -202,7 +202,7 @@ export const generateProducts = (): Product[] => {
       id: "cat-doors-korakkar-alex-black-gold-12",
       slug: "designer-doors-catalog-korakkar-alex-black-gold-12",
       name: "KH614-black silver",
-      name2:"noyyal",
+      name2: "noyyal",
       brand: "KORAKKAR®",
       category: "doors",
       images: ["/images/korakkar/13.jpeg"],
@@ -212,7 +212,7 @@ export const generateProducts = (): Product[] => {
       id: "cat-doors-korakkar-alex-black-gold-13",
       slug: "designer-doors-catalog-korakkar-alex-black-gold-13",
       name: "Kh615-black gold",
-      name2:"noyyal",
+      name2: "noyyal",
       brand: "KORAKKAR®",
       category: "doors",
       images: ["/images/korakkar/14.jpeg"],
@@ -222,7 +222,7 @@ export const generateProducts = (): Product[] => {
       id: "cat-doors-korakkar-alex-black-gold-14",
       slug: "designer-doors-catalog-korakkar-alex-black-gold-14",
       name: "kh801-sandal",
-      name2:"noyyal",
+      name2: "noyyal",
       brand: "KORAKKAR®",
       category: "doors",
       images: ["/images/korakkar/15.jpeg"],
@@ -232,7 +232,7 @@ export const generateProducts = (): Product[] => {
       id: "cat-doors-korakkar-alex-black-gold-15",
       slug: "designer-doors-catalog-korakkar-alex-black-gold-15",
       name: "kh1802-cherry",
-      name2:"noyyal",
+      name2: "noyyal",
       brand: "KORAKKAR®",
       category: "doors",
       images: ["/images/korakkar/16.jpeg"],
@@ -242,7 +242,7 @@ export const generateProducts = (): Product[] => {
       id: "cat-doors-korakkar-alex-black-gold-16",
       slug: "designer-doors-catalog-korakkar-alex-black-gold-16",
       name: "kh-1804 walnut",
-      name2:"noyyal",
+      name2: "noyyal",
       brand: "KORAKKAR®",
       category: "doors",
       images: ["/images/korakkar/17.jpeg"],
@@ -252,7 +252,7 @@ export const generateProducts = (): Product[] => {
       id: "cat-doors-korakkar-alex-black-gold-17",
       slug: "designer-doors-catalog-korakkar-alex-black-gold-17",
       name: "kh-1805 black magic",
-      name2:"noyyal",
+      name2: "noyyal",
       brand: "KORAKKAR®",
       category: "doors",
       images: ["/images/korakkar/18.jpeg"],
@@ -262,7 +262,7 @@ export const generateProducts = (): Product[] => {
       id: "cat-doors-korakkar-alex-black-gold-18",
       slug: "designer-doors-catalog-korakkar-alex-black-gold-18",
       name: "kh-1807 satin white",
-      name2:"noyyal",
+      name2: "noyyal",
       brand: "KORAKKAR®",
       category: "doors",
       images: ["/images/korakkar/19.jpeg"],
@@ -272,7 +272,7 @@ export const generateProducts = (): Product[] => {
       id: "cat-doors-korakkar-alex-black-gold-19",
       slug: "designer-doors-catalog-korakkar-alex-black-gold-19",
       name: "kh-1808 white beach",
-      name2:"noyyal",
+      name2: "noyyal",
       brand: "KORAKKAR®",
       category: "doors",
       images: ["/images/korakkar/20.jpeg"],
@@ -282,7 +282,7 @@ export const generateProducts = (): Product[] => {
       id: "cat-doors-korakkar-alex-black-gold-20",
       slug: "designer-doors-catalog-korakkar-alex-black-gold-20",
       name: "kh-1811 blue",
-      name2:"noyyal",
+      name2: "noyyal",
       brand: "KORAKKAR®",
       category: "doors",
       images: ["/images/korakkar/21.jpeg"],
@@ -879,7 +879,7 @@ export const generateProducts = (): Product[] => {
 
 
 
-
+    // bonus catalog
     {
       id: "cat-furniture-hardware-bonus-drawer-slide-1",
       slug: "furniture-hardware-catalog-bonus-drawer-slide-1",
@@ -1025,6 +1025,248 @@ export const generateProducts = (): Product[] => {
       images: ["/images/bonus/4 square.jpeg"],
       isImageOnly: true
     },
+
+
+
+
+
+
+
+    //spider kitchen
+    {
+      id: "cat-modular-kitchen-spider-swing",
+      slug: "modular-kitchen-catalog-spider-swing",
+      name: "Glass pantry",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/1 glass.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-pull-down",
+      slug: "modular-kitchen-catalog-spider-pull-down",
+      name: "Pull down",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/1 pull.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-magic-corner",
+      slug: "modular-kitchen-catalog-spider-magic-corner",
+      name: "Magic corner",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/1 magic.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-carousel",
+      slug: "modular-kitchen-catalog-spider-carousel",
+      name: "Carousel",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/1 carousel.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-bottle-pull-out",
+      slug: "modular-kitchen-catalog-spider-bottle-pull-out",
+      name: "Bottle pull out",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/2 bottle.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-rolling-pull-out",
+      slug: "modular-kitchen-catalog-spider-rolling-pull-out",
+      name: "Rolling shutter(pvc)",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/2 rolling.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-roll-glass",
+      slug: "modular-kitchen-catalog-spider-roll-glass",
+      name: "Roll shutter glass",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/2 roll glass.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-rolling-shutter-pvc",
+      slug: "modular-kitchen-catalog-spider-rolling-shutter-pvc",
+      name: "pvc cutlery",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/2 pvc.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-rolling-shutter-pvc",
+      slug: "modular-kitchen-catalog-spider-rolling-shutter-pvc",
+      name: "Wicker basket",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/3 wicker.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-rolling-shutter-pvc",
+      slug: "modular-kitchen-catalog-spider-rolling-shutter-pvc",
+      name: "frame wicker(Quadro)",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/3 frame.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-rolling-shutter-pvc",
+      slug: "modular-kitchen-catalog-spider-rolling-shutter-pvc",
+      name: "Tandem box",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/3 tandem.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-rolling-shutter-pvc",
+      slug: "modular-kitchen-catalog-spider-rolling-shutter-pvc",
+      name: "under mount slide(quadro)",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/4 under.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-rolling-shutter-pvc",
+      slug: "modular-kitchen-catalog-spider-rolling-shutter-pvc",
+      name: "drawer slides (35 kgs)",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/4 drawer 35.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-rolling-shutter-pvc",
+      slug: "modular-kitchen-catalog-spider-rolling-shutter-pvc",
+      name: "drawer slides (45 kgs)",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/4 drawer 45.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-rolling-shutter-pvc",
+      slug: "modular-kitchen-catalog-spider-rolling-shutter-pvc",
+      name: "drawer slides (stainless steel)",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/4 drawer stain.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-rolling-shutter-pvc",
+      slug: "modular-kitchen-catalog-spider-rolling-shutter-pvc",
+      name: "drawer slides (soft close)",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/4 drawer soft.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-rolling-shutter-pvc",
+      slug: "modular-kitchen-catalog-spider-rolling-shutter-pvc",
+      name: "auto concealed hinges",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/5 auto.jpeg"],
+      isImageOnly: true
+    },
+     {
+      id: "cat-modular-kitchen-spider-rolling-shutter-pvc",
+      slug: "modular-kitchen-catalog-spider-rolling-shutter-pvc",
+      name: "ss auto concealed hinges",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/5 ss auto.jpeg"],
+      isImageOnly: true
+    },
+     {
+      id: "cat-modular-kitchen-spider-rolling-shutter-pvc",
+      slug: "modular-kitchen-catalog-spider-rolling-shutter-pvc",
+      name: "Hydraulic hinges ",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/5 hydraulic.jpeg"],
+      isImageOnly: true
+    },
+     {
+      id: "cat-modular-kitchen-spider-rolling-shutter-pvc",
+      slug: "modular-kitchen-catalog-spider-rolling-shutter-pvc",
+      name: "ss hydraulic hinges",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/5 ss hydra.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-rolling-shutter-pvc",
+      slug: "modular-kitchen-catalog-spider-rolling-shutter-pvc",
+      name: "3d hydralic hinges",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/6 3d.jpeg"],
+      isImageOnly: true
+    },
+     {
+      id: "cat-modular-kitchen-spider-rolling-shutter-pvc",
+      slug: "modular-kitchen-catalog-spider-rolling-shutter-pvc",
+      name: "ss 3d hydralic hinges",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/6 ss 3d.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-rolling-shutter-pvc",
+      slug: "modular-kitchen-catalog-spider-rolling-shutter-pvc",
+      name: "gas spring",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/6 gas.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-spider-rolling-shutter-pvc",
+      slug: "modular-kitchen-catalog-spider-rolling-shutter-pvc",
+      name: "gas spring (soft close)",
+      brand: "SPIDER®",
+      category: "modular-kitchen",
+      images: ["/images/spider/6 gas soft.jpeg"],
+      isImageOnly: true
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
       id: "cat-modular-kitchen-hablo-slim-tandem",
       slug: "modular-kitchen-catalog-hablo-slim-tandem",
@@ -1043,7 +1285,7 @@ export const generateProducts = (): Product[] => {
       images: ["/images/hablo/2 slim glass.jpeg"],
       isImageOnly: true
     },
-    { 
+    {
       id: "cat-modular-kitchen-hablo-bottle-pullout-2-shelf",
       slug: "modular-kitchen-catalog-hablo-bottle-pullout-2-shelf",
       name: "bottle pullout-2 shelf",
@@ -1259,6 +1501,365 @@ export const generateProducts = (): Product[] => {
       images: ["/images/hablo/7 jprofile.jpeg"],
       isImageOnly: true
     },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "handle shuttter profile",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/8 handle.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "Frame shutter profile ",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/8 frame.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-bindi-handle",
+      slug: "modular-kitchen-catalog-hablo-bindi-handle",
+      name: "bindi profile",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/8 bindi.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-l-gola-profile",
+      slug: "modular-kitchen-catalog-hablo-l-gola-profile",
+      name: "L gola profile",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/8 L gola.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-c-gola-profile",
+      slug: "modular-kitchen-catalog-hablo-c-gola-profile",
+      name: "C gola profile",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/9 C gola.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "profile accesssories",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/9 profile.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-pvc-strip",
+      slug: "modular-kitchen-catalog-hablo-pvc-strip",
+      name: "pvc skirting-3 MTRS-100mm",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/9 pvc.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "skirting connector",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/9 skirting.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "multi function leather drawer organiser",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/10 multi.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "leather storage basket",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/10 leather.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "trouser rack",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/10 trouser.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "top mount two side trouser rack",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/10 top.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "top mount one side trouser rack",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/11 top.jpeg"],
+      isImageOnly: true
+    }, {
+    id: "cat-modular-kitchen-hablo-handle",
+    slug: "modular-kitchen-catalog-hablo-handle",
+    name: "side installation trouser rack",
+    brand: "HABLO®",
+    category: "modular-kitchen",
+    images: ["/images/hablo/11 side.jpeg"],
+    isImageOnly: true
+  }, {
+    id: "cat-modular-kitchen-hablo-handle",
+    slug: "modular-kitchen-catalog-hablo-handle",
+    name: "cloth hanger pullout",
+    brand: "HABLO®",
+    category: "modular-kitchen",
+    images: ["/images/hablo/11 cloth.jpeg"],
+    isImageOnly: true
+  },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "cloth hanger lift up",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/11 cloth lift up.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "ironing board with soft close",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/11 ironing.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "wardrobe sliding fitting",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/12 wardrobe.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "sliding track with cap",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/12 sliding.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "floor spring",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/12 floor.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "top patch fitting",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/12 top.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "bottom patch fitting",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/13 bottom.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "bottom lock patch fitting",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/13 bottom lock.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "top pivot",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/13 top.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "door closer",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/13 door.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "premium welded hinges",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/14 premium.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: " cylindrical lock ss 304",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/14 cylindrical.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "drawer channel-ms",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/14 drawer.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "drawer channel-ss",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/14 drawer ss.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "ms soft closing channel-35kg",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/15 ms.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "push-to-open magnet",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/15 push.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "3d wooden quadro channel",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/15 3d.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "ms auto hinges",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/15 ms auto.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "ms slip on soft hinges",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/16 ms slip.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "premium 3d clip on ss hinges",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/16 premium 3d clip.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "premium 3d black clip on  soft hinges",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/16 premium 3d black.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "ss non magnetic clip on soft hinges",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/16 ss non.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "ss  short arm hinges",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/16 ss short.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "profile black hydraulic hinges",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/17 profile.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-modular-kitchen-hablo-handle",
+      slug: "modular-kitchen-catalog-hablo-handle",
+      name: "165'corner hydraulic hinges",
+      brand: "HABLO®",
+      category: "modular-kitchen",
+      images: ["/images/hablo/17 165.jpeg"],
+      isImageOnly: true
+    },
+
 
 
 
@@ -1347,7 +1948,7 @@ export const generateProducts = (): Product[] => {
       images: ["/images/bonus/1 mobraj bonus.jpeg"],
       isImageOnly: true
     },
-     {
+    {
       id: "cat-furniture-hardware-mobaj-drawer-slides",
       slug: "door-locks-catalog-mobaj-drawer-slides",
       name: "Drawer Slides",
@@ -1476,7 +2077,7 @@ export const generateProducts = (): Product[] => {
       images: ["/images/quba/qlick.jpeg"],
       isImageOnly: true
     },
-     {
+    {
       id: "cat-door-locks-qlick-lite",
       slug: "door-locks-catalog-qlick-lite",
       name: "Qlick Lite",
@@ -1524,7 +2125,7 @@ export const generateProducts = (): Product[] => {
       images: ["/images/quba/5 QS003fp.jpeg"],
       isImageOnly: true
     },
-     {
+    {
       id: "cat-door-locks-qs004f",
       slug: "door-locks-catalog-qs004f",
       name: "QS004f",
@@ -1540,7 +2141,7 @@ export const generateProducts = (): Product[] => {
       images: ["/images/quba/5 QS004fslb.jpeg"],
       isImageOnly: true
     },
-     {
+    {
       id: "cat-door-locks-qs005f",
       slug: "door-locks-catalog-qs005f",
       name: "QS005F",
@@ -1548,7 +2149,7 @@ export const generateProducts = (): Product[] => {
       images: ["/images/quba/5 QS005f.jpeg"],
       isImageOnly: true
     },
-     {
+    {
       id: "cat-door-locks-atom001f",
       slug: "door-locks-catalog-atom001f",
       name: "atom001f",
@@ -1556,7 +2157,7 @@ export const generateProducts = (): Product[] => {
       images: ["/images/quba/5 atom001f.jpeg"],
       isImageOnly: true
     },
-     {
+    {
       id: "cat-door-locks-atom002p",
       slug: "door-locks-catalog-atom002p",
       name: "atom002p",
@@ -1587,7 +2188,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/6 qhl encoder2.jpeg"],
       isImageOnly: true
-    } ,
+    },
     {
       id: "cat-door-locks-qhlhhd1",
       slug: "door-locks-catalog-qhlhhd1",
@@ -1643,7 +2244,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/7 qhl 005.jpeg"],
       isImageOnly: true
-    }, 
+    },
     {
       id: "cat-door-locks-qhlencoder3",
       slug: "door-locks-catalog-qhlencoder3",
@@ -1651,7 +2252,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/7 qhl encoder 3.jpeg"],
       isImageOnly: true
-    }, 
+    },
     {
       id: "cat-door-locks-qhlhhd2",
       slug: "door-locks-catalog-qhlhhd2",
@@ -1659,7 +2260,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/7 qhl hhd2.jpeg"],
       isImageOnly: true
-    } ,
+    },
     {
       id: "cat-door-locks-qhless3",
       slug: "door-locks-catalog-qhless3",
@@ -1667,15 +2268,15 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/7 qhl ess 3.jpeg"],
       isImageOnly: true
-    } ,
-     {
+    },
+    {
       id: "cat-door-locks-qhless4",
       slug: "door-locks-catalog-qhless4",
       name: "qhl-ess-4",
       category: "door-locks",
       images: ["/images/quba/7 qhl ess 4.jpeg"],
       isImageOnly: true
-    } ,
+    },
     {
       id: "cat-door-locks-qhlhls-v4.2",
       slug: "door-locks-catalog-qhlhls-v4.2",
@@ -1683,7 +2284,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/7 qhl hls v4.2 software for hotel.jpeg"],
       isImageOnly: true
-    } ,
+    },
     {
       id: "cat-door-locks-qhlrf3",
       slug: "door-locks-catalog-qhlrf3",
@@ -1691,7 +2292,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/7 qhl rf3.jpeg"],
       isImageOnly: true
-    } ,
+    },
     {
       id: "cat-door-locks-qastrix-001",
       slug: "door-locks-catalog-qastrix-001",
@@ -1699,15 +2300,15 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/8 astrix 001.jpeg"],
       isImageOnly: true
-    } ,
-      {
+    },
+    {
       id: "cat-door-locks-qastrix-002",
       slug: "door-locks-catalog-qastrix-002",
       name: "astrix-002",
       category: "door-locks",
       images: ["/images/quba/8 astrix 002.jpeg"],
       isImageOnly: true
-    } ,
+    },
     {
       id: "cat-door-locks-alpha",
       slug: "door-locks-catalog-alpha",
@@ -1715,8 +2316,8 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/8 alpha .jpeg"],
       isImageOnly: true
-    } ,
-     {
+    },
+    {
       id: "cat-door-locks-magnus-8-1",
       slug: "door-locks-catalog-magnus-8-1",
       name: "magnus",
@@ -1747,7 +2348,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/9 maximus.jpeg"],
       isImageOnly: true
-    } ,
+    },
     {
       id: "cat-door-locks-qeye",
       slug: "door-locks-catalog-qeye",
@@ -1755,7 +2356,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/9 queye.jpeg"],
       isImageOnly: true
-    } , 
+    },
     {
       id: "cat-door-locks-qview",
       slug: "door-locks-catalog-qview",
@@ -1763,24 +2364,24 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/9 qview.jpeg"],
       isImageOnly: true
-    } ,
-     {
+    },
+    {
       id: "cat-door-locks-rfidcard",
       slug: "door-locks-catalog-rfidcard",
       name: "rfidcard",
       category: "door-locks",
       images: ["/images/quba/10 rfid card.jpeg"],
       isImageOnly: true
-    } , 
-     {
+    },
+    {
       id: "cat-door-locks-digitalsafe",
       slug: "door-locks-catalog-digitalsafe",
       name: "digitalsafe",
       category: "door-locks",
       images: ["/images/quba/10 digital safe trolly.jpeg"],
       isImageOnly: true
-    } , 
-     {
+    },
+    {
       id: "cat-door-locks-q151",
       slug: "door-locks-catalog-q151",
       name: "Q 151",
@@ -1795,7 +2396,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/19 q 152.jpeg"],
       isImageOnly: true
-    } ,
+    },
     {
       id: "cat-door-locks-q153",
       slug: "door-locks-catalog-q153",
@@ -1819,7 +2420,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/19 q 410.jpeg"],
       isImageOnly: true
-    } ,
+    },
     {
       id: "cat-door-locks-q428",
       slug: "door-locks-catalog-q428",
@@ -1827,7 +2428,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/20 q 428.jpeg"],
       isImageOnly: true
-    } ,
+    },
     {
       id: "cat-door-locks-q452",
       slug: "door-locks-catalog-q452",
@@ -1835,7 +2436,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/20 q 452.jpeg"],
       isImageOnly: true
-    } ,
+    },
     {
       id: "cat-door-locks-q455",
       slug: "door-locks-catalog-q455",
@@ -1843,7 +2444,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/20 q 455.jpeg"],
       isImageOnly: true
-    } ,
+    },
     {
       id: "cat-door-locks-q456",
       slug: "door-locks-catalog-q456",
@@ -1851,7 +2452,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/20 q 456.jpeg"],
       isImageOnly: true
-    } ,
+    },
     {
       id: "cat-door-locks-q457",
       slug: "door-locks-catalog-q457",
@@ -1859,7 +2460,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/21 q 457.jpeg"],
       isImageOnly: true
-    } ,
+    },
     {
       id: "cat-door-locks-q460",
       slug: "door-locks-catalog-q460",
@@ -1867,7 +2468,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/21 q 460.jpeg"],
       isImageOnly: true
-    } ,
+    },
     {
       id: "cat-door-locks-q461",
       slug: "door-locks-catalog-q461",
@@ -1875,7 +2476,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/21 q 461  .jpeg"],
       isImageOnly: true
-    } ,
+    },
     {
       id: "cat-door-locks-q462",
       slug: "door-locks-catalog-q462",
@@ -1883,7 +2484,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/21 q 462.jpeg"],
       isImageOnly: true
-    } ,
+    },
     {
       id: "cat-door-locks-q463",
       slug: "door-locks-catalog-q463",
@@ -1891,7 +2492,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/22 q 463.jpeg"],
       isImageOnly: true
-    } ,
+    },
 
     {
       id: "cat-door-locks-q464",
@@ -1900,7 +2501,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/22 q 464.jpeg"],
       isImageOnly: true
-    } ,     
+    },
     {
       id: "cat-door-locks-q465",
       slug: "door-locks-catalog-q465",
@@ -1908,7 +2509,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/22 q 465.jpeg"],
       isImageOnly: true
-    } ,       
+    },
     {
       id: "cat-door-locks-q466",
       slug: "door-locks-catalog-q466",
@@ -1916,7 +2517,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/22 q 466.jpeg"],
       isImageOnly: true
-    } , 
+    },
     {
       id: "cat-door-locks-q467",
       slug: "door-locks-catalog-q467",
@@ -1924,7 +2525,7 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/23 q 467.jpeg"],
       isImageOnly: true
-    } ,
+    },
     {
       id: "cat-door-locks-q468",
       slug: "door-locks-catalog-q468",
@@ -1932,284 +2533,284 @@ export const generateProducts = (): Product[] => {
       category: "door-locks",
       images: ["/images/quba/23 q 468.jpeg"],
       isImageOnly: true
-    } ,
-      {
-        id: "cat-door-locks-q801",
-        slug: "door-locks-catalog-q801",
-        name: "Q 801",
-        category: "door-locks",
-        images: ["/images/quba/23 q 801.jpeg"],
-        isImageOnly: true
-      } ,   
-        {
-          id: "cat-door-locks-q803",
-          slug: "door-locks-catalog-q803",
-          name: "Q 803",
-          category: "door-locks",
-          images: ["/images/quba/23 q 803.jpeg"],
-          isImageOnly: true
-        } ,   
-            {
-            id: "cat-door-locks-q808",
-            slug: "door-locks-catalog-q808",
-            name: "Q 808",
-            category: "door-locks",
-            images: ["/images/quba/24 q 808.jpeg"],
-            isImageOnly: true
-          } ,  
-          {
-            id: "cat-door-locks-q809",
-            slug: "door-locks-catalog-q809",
-            name: "Q 809",
-            category: "door-locks",
-            images: ["/images/quba/24 q 809.jpeg"],
-            isImageOnly: true
-          } ,  
-          {
-            id: "cat-door-locks-q810",
-            slug: "door-locks-catalog-q810",
-            name: "Q 810",
-            category: "door-locks",
-            images: ["/images/quba/24 q 810.jpeg"],
-            isImageOnly: true
-          } ,  
-            {
-            id: "cat-door-locks-q811",
-            slug: "door-locks-catalog-q811",
-            name: "Q 811",
-            category: "door-locks",
-            images: ["/images/quba/24 q 811.jpeg"],
-            isImageOnly: true
-          } ,  
-           {
-            id: "cat-door-locks-q812",
-            slug: "door-locks-catalog-q812",
-            name: "Q 812",
-            category: "door-locks",
-            images: ["/images/quba/24 q 812.jpeg"],
-            isImageOnly: true
-          } ,  
-          {
-            id: "cat-door-locks-q813",
-            slug: "door-locks-catalog-q813",
-            name: "Q 813",
-            category: "door-locks",
-            images: ["/images/quba/24 q 813.jpeg"],
-            isImageOnly: true
-          } ,  
-          {
-            id: "cat-door-locks-q814",
-            slug: "door-locks-catalog-q814",
-            name: "Q 814",
-            category: "door-locks",
-            images: ["/images/quba/25 q 814.jpeg"],
-            isImageOnly: true
-          } ,  
-            {
-            id: "cat-door-locks-q815",
-            slug: "door-locks-catalog-q815",
-            name: "Q 815",
-            category: "door-locks",
-            images: ["/images/quba/25 q 815.jpeg"],
-            isImageOnly: true
-          } ,    
-            {
-            id: "cat-door-locks-q416",
-            slug: "door-locks-catalog-q416",
-            name: "Q 416",
-            category: "door-locks",
-            images: ["/images/quba/26 q 416.jpeg"],
-            isImageOnly: true
-          } ,    
-          {
-            id: "cat-door-locks-q426",
-            slug: "door-locks-catalog-q426",
-            name: "Q 426",
-            category: "door-locks",
-            images: ["/images/quba/26 q 426.jpeg"],
-            isImageOnly: true
-          } ,    
-          {
-            id: "cat-door-locks-q801-26",
-            slug: "door-locks-catalog-q801-26",
-            name: "Q 801",
-            category: "door-locks",
-            images: ["/images/quba/26 q 801.jpeg"],
-            isImageOnly: true
-          },
-          {
-            id: "cat-door-locks-q803-26",
-            slug: "door-locks-catalog-q803-26",
-            name: "Q 803",
-            category: "door-locks",
-            images: ["/images/quba/26 q 803.jpeg"],
-            isImageOnly: true
-          },
-          {
-            id: "cat-door-locks-q806",
-            slug: "door-locks-catalog-q806",
-            name: "Q 806",
-            category: "door-locks",
-            images: ["/images/quba/26 q 806.jpeg"],
-            isImageOnly: true
-          },
-          {
-            id: "cat-door-locks-q807",
-            slug: "door-locks-catalog-q807",
-            name: "Q 807",
-            category: "door-locks",
-            images: ["/images/quba/26 q 807.jpeg"],
-            isImageOnly: true
-          },
-          {
-            id: "cat-door-locks-q808-26",
-            slug: "door-locks-catalog-q808-26",
-            name: "Q 808",
-            category: "door-locks",
-            images: ["/images/quba/26 q 808.jpeg"],
-            isImageOnly: true
-          },
-          {
-            id: "cat-door-locks-q809-26",
-            slug: "door-locks-catalog-q809-26",
-            name: "Q 809",
-            category: "door-locks",
-            images: ["/images/quba/26 q 809.jpeg"],
-            isImageOnly: true
-          },
-          {
-            id: "cat-door-locks-q810-26",
-            slug: "door-locks-catalog-q810-26",
-            name: "Q 810",
-            category: "door-locks",
-            images: ["/images/quba/26 q 810.jpeg"],
-            isImageOnly: true
-          },
-          {
-            id: "cat-door-locks-q466-26",
-            slug: "door-locks-catalog-q466-26",
-            name: "Q 466",
-            category: "door-locks",
-            images: ["/images/quba/26 q 466.jpeg"],
-            isImageOnly: true
-          },
-          {
-            id: "cat-door-locks-q811-27",
-            slug: "door-locks-catalog-q811-27",
-            name: "Q 811",
-            category: "door-locks",
-            images: ["/images/quba/27 q 811.jpeg"],
-            isImageOnly: true
-          },
-          {
-            id: "cat-door-locks-q812-27",
-            slug: "door-locks-catalog-q812-27",
-            name: "Q 812",
-            category: "door-locks",
-            images: ["/images/quba/27 q 812.jpeg"],
-            isImageOnly: true
-          },
-          {
-            id: "cat-door-locks-q813-27",
-            slug: "door-locks-catalog-q813-27",
-            name: "Q 813",
-            category: "door-locks",
-            images: ["/images/quba/27 q 813.jpeg"],
-            isImageOnly: true
-          },
-          {
-            id: "cat-door-locks-q814-27",
-            slug: "door-locks-catalog-q814-27",
-            name: "Q 814",
-            category: "door-locks",
-            images: ["/images/quba/27 q 814.jpeg"],
-            isImageOnly: true
-          },
-          {
-            id: "cat-door-locks-q815-27",
-            slug: "door-locks-catalog-q815-27",
-            name: "Q 815",
-            category: "door-locks",
-            images: ["/images/quba/27 q 815.jpeg"],
-            isImageOnly: true
-          },
-          {
-            id: "cat-door-locks-q1001-28",
-            slug: "door-locks-catalog-q1001-28",
-            name: "Q 1001",
-            category: "door-locks",
-            images: ["/images/quba/28 q 1001.jpeg"],
-            isImageOnly: true
-          },
-           {
-            id: "cat-door-locks-q1002-28",
-            slug: "door-locks-catalog-q1002-28",
-            name: "Q 1002",
-            category: "door-locks",
-            images: ["/images/quba/28 q 1002.jpeg"],
-            isImageOnly: true
-          },
-          {
-            id: "cat-door-locks-q1004-28",
-            slug: "door-locks-catalog-q1004-28",
-            name: "Q 1004",
-            category: "door-locks",
-            images: ["/images/quba/28 q 1004.jpeg"],
-            isImageOnly: true
-          },
-          {
-            id: "cat-door-locks-q1005-28",
-            slug: "door-locks-catalog-q1005-28",
-            name: "Q 1005",
-            category: "door-locks",
-            images: ["/images/quba/28 q 1005.jpeg"],
-            isImageOnly: true
-          },  
-          {
-            id: "cat-door-locks-q1006-28",
-            slug: "door-locks-catalog-q1006-28",
-            name: "Q 1006",
-            category: "door-locks",
-            images: ["/images/quba/28 q 1006.jpeg"],
-            isImageOnly: true
-          },  
-          {
-            id: "cat-door-locks-q1008-28",
-            slug: "door-locks-catalog-q1008-28",
-            name: "Q 1008",
-            category: "door-locks",
-            images: ["/images/quba/28 q 1008.jpeg"],
-            isImageOnly: true
-          }, 
-          {
-            id: "cat-door-locks-q1009-28",
-            slug: "door-locks-catalog-q1009-28",
-            name: "Q 5060,5070,5080",
-            name2: "Q 6060,6070,6080",
-            category: "door-locks",
-            images: ["/images/quba/q1009.jpeg"],
-            isImageOnly: true
-          },    
-          {
-            id: "cat-door-locks-q1008-35qq",
-            slug: "door-locks-catalog-q1008-35qq",
-            name: "Construction Key Cylinder",
-            category: "door-locks",
-            images: ["/images/quba/35qq.jpeg"],
-            isImageOnly: true
-          }, 
-          {  
-            id: "cat-door-locks-36qq",
-            slug: "door-locks-catalog-36qq",
-            name: "septabolt",
-            category: "door-locks",
-            images: ["/images/quba/36 qq.jpeg"],
-            isImageOnly: true,
-            cardBg: "bg-[#282828]"
-          },   
-          
-          
-          
+    },
+    {
+      id: "cat-door-locks-q801",
+      slug: "door-locks-catalog-q801",
+      name: "Q 801",
+      category: "door-locks",
+      images: ["/images/quba/23 q 801.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q803",
+      slug: "door-locks-catalog-q803",
+      name: "Q 803",
+      category: "door-locks",
+      images: ["/images/quba/23 q 803.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q808",
+      slug: "door-locks-catalog-q808",
+      name: "Q 808",
+      category: "door-locks",
+      images: ["/images/quba/24 q 808.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q809",
+      slug: "door-locks-catalog-q809",
+      name: "Q 809",
+      category: "door-locks",
+      images: ["/images/quba/24 q 809.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q810",
+      slug: "door-locks-catalog-q810",
+      name: "Q 810",
+      category: "door-locks",
+      images: ["/images/quba/24 q 810.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q811",
+      slug: "door-locks-catalog-q811",
+      name: "Q 811",
+      category: "door-locks",
+      images: ["/images/quba/24 q 811.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q812",
+      slug: "door-locks-catalog-q812",
+      name: "Q 812",
+      category: "door-locks",
+      images: ["/images/quba/24 q 812.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q813",
+      slug: "door-locks-catalog-q813",
+      name: "Q 813",
+      category: "door-locks",
+      images: ["/images/quba/24 q 813.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q814",
+      slug: "door-locks-catalog-q814",
+      name: "Q 814",
+      category: "door-locks",
+      images: ["/images/quba/25 q 814.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q815",
+      slug: "door-locks-catalog-q815",
+      name: "Q 815",
+      category: "door-locks",
+      images: ["/images/quba/25 q 815.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q416",
+      slug: "door-locks-catalog-q416",
+      name: "Q 416",
+      category: "door-locks",
+      images: ["/images/quba/26 q 416.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q426",
+      slug: "door-locks-catalog-q426",
+      name: "Q 426",
+      category: "door-locks",
+      images: ["/images/quba/26 q 426.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q801-26",
+      slug: "door-locks-catalog-q801-26",
+      name: "Q 801",
+      category: "door-locks",
+      images: ["/images/quba/26 q 801.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q803-26",
+      slug: "door-locks-catalog-q803-26",
+      name: "Q 803",
+      category: "door-locks",
+      images: ["/images/quba/26 q 803.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q806",
+      slug: "door-locks-catalog-q806",
+      name: "Q 806",
+      category: "door-locks",
+      images: ["/images/quba/26 q 806.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q807",
+      slug: "door-locks-catalog-q807",
+      name: "Q 807",
+      category: "door-locks",
+      images: ["/images/quba/26 q 807.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q808-26",
+      slug: "door-locks-catalog-q808-26",
+      name: "Q 808",
+      category: "door-locks",
+      images: ["/images/quba/26 q 808.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q809-26",
+      slug: "door-locks-catalog-q809-26",
+      name: "Q 809",
+      category: "door-locks",
+      images: ["/images/quba/26 q 809.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q810-26",
+      slug: "door-locks-catalog-q810-26",
+      name: "Q 810",
+      category: "door-locks",
+      images: ["/images/quba/26 q 810.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q466-26",
+      slug: "door-locks-catalog-q466-26",
+      name: "Q 466",
+      category: "door-locks",
+      images: ["/images/quba/26 q 466.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q811-27",
+      slug: "door-locks-catalog-q811-27",
+      name: "Q 811",
+      category: "door-locks",
+      images: ["/images/quba/27 q 811.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q812-27",
+      slug: "door-locks-catalog-q812-27",
+      name: "Q 812",
+      category: "door-locks",
+      images: ["/images/quba/27 q 812.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q813-27",
+      slug: "door-locks-catalog-q813-27",
+      name: "Q 813",
+      category: "door-locks",
+      images: ["/images/quba/27 q 813.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q814-27",
+      slug: "door-locks-catalog-q814-27",
+      name: "Q 814",
+      category: "door-locks",
+      images: ["/images/quba/27 q 814.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q815-27",
+      slug: "door-locks-catalog-q815-27",
+      name: "Q 815",
+      category: "door-locks",
+      images: ["/images/quba/27 q 815.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q1001-28",
+      slug: "door-locks-catalog-q1001-28",
+      name: "Q 1001",
+      category: "door-locks",
+      images: ["/images/quba/28 q 1001.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q1002-28",
+      slug: "door-locks-catalog-q1002-28",
+      name: "Q 1002",
+      category: "door-locks",
+      images: ["/images/quba/28 q 1002.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q1004-28",
+      slug: "door-locks-catalog-q1004-28",
+      name: "Q 1004",
+      category: "door-locks",
+      images: ["/images/quba/28 q 1004.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q1005-28",
+      slug: "door-locks-catalog-q1005-28",
+      name: "Q 1005",
+      category: "door-locks",
+      images: ["/images/quba/28 q 1005.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q1006-28",
+      slug: "door-locks-catalog-q1006-28",
+      name: "Q 1006",
+      category: "door-locks",
+      images: ["/images/quba/28 q 1006.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q1008-28",
+      slug: "door-locks-catalog-q1008-28",
+      name: "Q 1008",
+      category: "door-locks",
+      images: ["/images/quba/28 q 1008.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q1009-28",
+      slug: "door-locks-catalog-q1009-28",
+      name: "Q 5060,5070,5080",
+      name2: "Q 6060,6070,6080",
+      category: "door-locks",
+      images: ["/images/quba/q1009.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-q1008-35qq",
+      slug: "door-locks-catalog-q1008-35qq",
+      name: "Construction Key Cylinder",
+      category: "door-locks",
+      images: ["/images/quba/35qq.jpeg"],
+      isImageOnly: true
+    },
+    {
+      id: "cat-door-locks-36qq",
+      slug: "door-locks-catalog-36qq",
+      name: "septabolt",
+      category: "door-locks",
+      images: ["/images/quba/36 qq.jpeg"],
+      isImageOnly: true,
+      cardBg: "bg-[#282828]"
+    },
+
+
+
   );
 
   return products;
@@ -2236,7 +2837,7 @@ export const getRelatedProducts = (product: Product, limit: number = 4): Product
 export const getPrevAndNextProduct = (product: Product): { prev: Product; next: Product } => {
   const categoryProducts = getProductsByCategory(product.category);
   const currentIndex = categoryProducts.findIndex((p) => p.id === product.id);
-  
+
   const prevIndex = (currentIndex - 1 + categoryProducts.length) % categoryProducts.length;
   const nextIndex = (currentIndex + 1) % categoryProducts.length;
 
